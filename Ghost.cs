@@ -67,7 +67,7 @@ namespace SiFirstMonoGame
             {
                 x = rnd.Next(maze.colCount - 2) + 1;
                 y = rnd.Next(maze.rowCount - 2) + 1;
-                isSet = maze.getIsSet(x, y);
+                isSet = maze.getIsSet(x-1, y-1);
             }
             this.origin = new Point(x, y);
             this.mazeMap = maze;

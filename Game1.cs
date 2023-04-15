@@ -93,7 +93,7 @@ namespace SiFirstMonoGame
 
         private float deathAngle;
 
-        private string filePath = "D:\\game.bin"; //"D:\\Smallgame.bin"; 
+        private string filePath = "game.bin";
         //private MazeSolver solver;
 
 
@@ -230,13 +230,13 @@ namespace SiFirstMonoGame
             Rectangle playerRect = new Rectangle((int)playerLeft, (int)playerTop, playerSize, playerSize);
             foreach (Ghost g in ghosts)
             {
+                
                 g.Update(gameTime);
                 if (g.Rect.Intersects(playerRect))
                 {
                     processGhostHit(g);
                 }
-
-                
+ 
             }
 
             switch (playerState)
