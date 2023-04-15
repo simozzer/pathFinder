@@ -1,4 +1,4 @@
-A simple scolling implementation of pacman - to learn how to implement Dijaktra's Alrorithm.
+A simple scrolling implementation of pacman - to learn how to implement Dijaktra's Alrorithm.
 
 Instructions:
 
