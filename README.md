@@ -7,7 +7,7 @@ Scroll the maze using the arrow keys and click on a point in the maze to force a
 Move 'Pacman' using 'W','A','S' & 'D' keys.
 
 
-This is an early implemntation and most of the game logic is missing. Dijaktra's algorithm is working nicely though.
+This is an early implementation and most of the game logic is missing. Dijaktra's algorithm is working nicely though.
 
 
 
