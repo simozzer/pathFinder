@@ -1,0 +1,7 @@
+Debug/
+Release/
+Content/bin
+bin
+Content/obj
+obj/
+.vs/
